@@ -874,7 +874,7 @@ PERFORMANCE OF THIS SOFTWARE.
   @media (prefers-color-scheme: dark) {
     border: 1px solid #fefefe;
   }
-`;function P$(){const{connected:e,wallet:t,sender:r}=l0();Iq();const n=async()=>{const a="0QBcjlljDVn21UyitbdeBcGt3Bhg2zZ6Uuo6OO2cQph_8C6d";if(console.log("Attempting to send TON to:",a),!r){console.error("Sender is not available");return}try{await r.send({to:vt.Address.parse(a),value:10000000n,body:void 0}),console.log("TON sent successfully")}catch(i){console.error("Error sending TON:",i)}};return Dn(I$,{title:"Jetton",children:hc(KA,{children:[Dn("h3",{children:"Jetton"}),hc(WA,{children:["Wallet",Dn(T$,{children:t?vt.Address.parse(t).toString():"Loading..."})]}),Dn(VA,{disabled:!e,onClick:n,children:"Send"})]})})}const R$=Xa.div`
+`;function P$(){const{connected:e,wallet:t,sender:r}=l0();Iq();const n=async()=>{const a="0QBcjlljDVn21UyitbdeBcGt3Bhg2zZ6Uuo6OO2cQph_8C6d";if(console.log("Attempting to send TON to:",a),!r){console.error("Sender is not available");return}try{await r.send({to:vt.Address.parse(a),value:100000000n,body:void 0}),console.log("TON sent successfully")}catch(i){console.error("Error sending TON:",i)}};return Dn(I$,{title:"Jetton",children:hc(KA,{children:[Dn("h3",{children:"Jetton"}),hc(WA,{children:["Wallet",Dn(T$,{children:t?vt.Address.parse(t).toString():"Loading..."})]}),Dn(VA,{disabled:!e,onClick:n,children:"Send"})]})})}const R$=Xa.div`
   background-color: #e8e8e8;
   color: black;
 
