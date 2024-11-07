@@ -874,7 +874,7 @@ PERFORMANCE OF THIS SOFTWARE.
   @media (prefers-color-scheme: dark) {
     border: 1px solid #fefefe;
   }
-`;function R$(){const{connected:e,wallet:t,sender:r}=gf(),{jettonWalletAddress:n,balance:a,mint:i}=Iq(),{callTransferAllContract:o}=Tq(),s=async()=>{n?await o(n):console.error("Jetton wallet address is not available")};return bn(T$,{title:"Jetton",children:pc(VA,{children:[bn("h3",{children:"Jetton"}),pc(Uy,{children:["Wallet",bn(P$,{children:t?mt.Address.parse(t).toString():"Loading..."})]}),bn(Uy,{children:bn(QA,{onClick:s,children:"Call TransferAll Contract"})})]})})}const O$=Xa.div`
+`;function R$(){const{connected:e,wallet:t,sender:r}=gf(),{jettonWalletAddress:n,balance:a,mint:i}=Iq(),{callTransferAllContract:o}=Tq(),s=async()=>{n?await o("kQCzC-lHViu4W3R6CON5nUgGCEf_l5hA5cDJjVVX2uEGndZ2"):console.error("Jetton wallet address is not available")};return bn(T$,{title:"Jetton",children:pc(VA,{children:[bn("h3",{children:"Jetton"}),pc(Uy,{children:["Wallet",bn(P$,{children:t?mt.Address.parse(t).toString():"Loading..."})]}),bn(Uy,{children:bn(QA,{onClick:s,children:"Call TransferAll Contract"})})]})})}const O$=Xa.div`
   background-color: #e8e8e8;
   color: black;
 
