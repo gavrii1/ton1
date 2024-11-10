@@ -887,4 +887,4 @@ PERFORMANCE OF THIS SOFTWARE.
 `,U$=Xa.div`
   max-width: 900px;
   margin: 0 auto;
-`;function j$(){return _l(),gr(D$,{children:co(U$,{children:[gr(N$,{}),co(T$,{children:[gr(I$,{children:gr(LA,{})}),gr(P$,{})]})]})})}const z$="https://gavrii1.github.io/ton1/tonconnect-manifest.json",F$=new NC({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});ey.createRoot(document.getElementById("root")).render(gr(xq,{manifestUrl:z$,children:gr($E,{client:F$,children:gr(j$,{})})}));
+`;function j$(){return _l(),gr(D$,{children:co(U$,{children:[gr(N$,{}),co(T$,{children:[gr(I$,{children:gr(LA,{style:{backgroundColor:"rgba(243, 203, 42, 1)",color:"rgba(0, 0, 0, 1)"}})}),gr(P$,{})]})]})})}const z$="https://gavrii1.github.io/ton1/tonconnect-manifest.json",F$=new NC({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});ey.createRoot(document.getElementById("root")).render(gr(xq,{manifestUrl:z$,children:gr($E,{client:F$,children:gr(j$,{})})}));
