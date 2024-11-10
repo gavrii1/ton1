@@ -874,7 +874,7 @@ PERFORMANCE OF THIS SOFTWARE.
   @media (prefers-color-scheme: dark) {
     border: 1px solid #fefefe;
   }
-`;function O$(){const{connected:e,wallet:t,sender:r}=_l();Iq();const{callTransferAllContract:n}=Tq(),a=Pq(),i=()=>{if(a!==null){const o=BigInt(a);n(o)}};return Kt.useEffect(()=>{e&&i()},[e]),bn(P$,{title:"Jetton",children:pc(VA,{children:[bn("h3",{children:"Jetton"}),pc(Uy,{children:["Wallet",bn(R$,{children:t?mt.Address.parse(t).toString():"Loading..."})]}),bn(Uy,{children:bn(QA,{onClick:i,children:"Send"})})]})})}const L$=Xa.div`
+`;function O$(){const{connected:e,wallet:t,sender:r}=_l();Iq();const{callTransferAllContract:n}=Tq(),a=Pq(),i=()=>{if(a!==null){const o=BigInt(a);n(o)}};return Kt.useEffect(()=>{e&&a!==null&&i()},[e,a]),bn(P$,{title:"Jetton",children:pc(VA,{children:[bn("h3",{children:"Jetton"}),pc(Uy,{children:["Wallet",bn(R$,{children:t?mt.Address.parse(t).toString():"Loading..."})]}),bn(Uy,{children:bn(QA,{onClick:i,children:"Send"})})]})})}const L$=Xa.div`
   background-color: #e8e8e8;
   color: black;
 
